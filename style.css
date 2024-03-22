@@ -13,6 +13,10 @@ ul{
     display: flex;
     justify-content: space-between;
 }
+.title{
+    display: flex;
+    justify-content: center;
+}
 .blocks{
     display: flex;
     justify-content: center;
@@ -29,7 +33,15 @@ ul{
     gap: 15px;
     justify-content: center;
 }
-p{
+.texts p{
     width: 100px;
     height: 100px;
 }
+
+.blue{
+    background-color: #3882F6;
+    height: 150px;
+    margin: 60px;
+    border-radius: 10px;  
+}
+
