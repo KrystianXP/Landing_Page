@@ -1,5 +1,7 @@
 body{
     font-family: sans-serif;
+    margin: 0;
+    padding: 0;
     
 }
 .wraper{
@@ -56,10 +58,32 @@ img{
     padding-left: 60px;
     padding-right: 60px;
 }
-.quote{
-    padding-left: 60px;
-    padding-right: 60px;
+
+.quote-block{
+    display: flex;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+
 }
+.quote p{
+    font-size: 36px;
+    font-family: italic;
+    color: #1F2937;
+    margin: 0;
+}
+.signature{
+    font-weight: bold;
+}
+.quote{
+    display: flex;
+    flex-direction: column;
+    width: 740px;
+    height: 400px;
+    align-items: end;
+    justify-content: center;
+}
+
 .footer{
     padding-left: 60px;
     padding-right: 60px;
@@ -68,10 +92,15 @@ img{
     display: flex;
     justify-content: center;
 }
+.title h1{
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937
+}
 .blocks{
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 65px;
 }
 .block{
     height: 100px;
@@ -81,7 +110,7 @@ img{
 }
 .texts{
     display: flex;
-    gap: 15px;
+    gap: 65px;
     justify-content: center;
 }
 .texts p{
