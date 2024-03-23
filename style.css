@@ -20,26 +20,37 @@ ul{
 }
 .header{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background-color: #1F2937;
-    color: whitesmoke;
-    padding-left: 60px;
-    padding-right: 60px;
+    color: whitesmoke; 
+    gap: 300px;
 }
+
 .main{
-    padding-left: 60px;
-    padding-right: 60px;
+   
+    height: 450px;
     background-color: #1F2937;
     display: flex;
     align-items: center;
-    justify-content: space-between
+    justify-content: center
 }
 .left-block{
-       
+       width: 450px;
+       height: 300px;
 }
-.right-block{
-    
+.left-block h1{
+    margin: 0;
+}
+button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+}
+.right-block{  
     height: 300px;
 }
 h1{
